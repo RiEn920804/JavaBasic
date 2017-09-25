@@ -18,12 +18,14 @@ public class PTra04_03 {
 			// 下記の命令を実行すると変数randomに、0以上、変数limitNumber未満の数字がランダムで代入されます
 			random = new java.util.Random().nextInt(limitNumber);
 
+
+
+			System.out.println("ランダムで生成された数値：" + random);
+
 			if(random == 2){
 				break;
 			}
-			System.out.println("ランダムで生成された数値：" + random);
 		}
-
 		System.out.println("プログラムを終了します。");
 	}
 }
