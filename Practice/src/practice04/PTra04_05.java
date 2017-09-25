@@ -1,4 +1,5 @@
 package practice04;
+
 /*
  * PTra04_05.java
  *   作成	LIKEIT	2017
@@ -46,6 +47,18 @@ public class PTra04_05 {
 			 */
 			if (cpuHand == 0) {
 				System.out.println("グー！");
+				if(myHand == 0){
+					System.out.println("アイコ");
+				}
+
+				if(myHand == 1){
+					System.out.println("負け");
+				}
+				if(myHand == 2){
+					System.out.println("勝ち");
+					winFlg = true;
+				}
+
 
 
 
@@ -56,7 +69,6 @@ public class PTra04_05 {
 
 			} else {
 				System.out.println("パー！！");
-
 
 
 			}
