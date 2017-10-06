@@ -1,4 +1,5 @@
 package practice07;
+
 /*
  * PTra07_07.java
  *   作成	LIKEIT	2017
@@ -16,6 +17,10 @@ public class PTra07_06 {
 		};
 
 		// ★ 配列arrayに格納されている全ての数字の平均を出力してください
+		double a = array[0][0] + array[0][1] + array[0][2]+
+				array[1][0] + array[1][1] + array[1][2]+array[1][3];
+			int b = array[0].length + array[1].length;
+			System.out.println(a/b);
 
 	}
 }
